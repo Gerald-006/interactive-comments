@@ -16,6 +16,9 @@ body{
     background:white;
     margin-bottom: 20px;
   }
+
+
+
 #reply {
   width: 65%;
   height: auto;
@@ -98,6 +101,38 @@ cursor: pointer;
 
 #edit:hover {
     cursor: pointer;
+}
+
+
+#reply-popup {
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#reply-wrapper {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    justify-content: space-around;
+  }
+
+#myreplyform {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#replyinput{ 
+    width: 60%;
 }
 
 
