@@ -17,6 +17,8 @@ body{
     margin-bottom: 20px;
   }
 
+
+
 #reply {
   width: 65%;
   height: auto;
@@ -101,6 +103,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
+
 #reply-popup {
     width: 70%;
     height: 100px;
@@ -131,3 +134,36 @@ cursor: pointer;
 #replyinput{ 
     width: 60%;
 }
+
+
+
+
+
+.comment-section {
+    margin-bottom: 20px;
+  }
+  .comment-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .comment-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    height: 150px;
+  }
+  .comment-section input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .comment-section input[type="submit"]:hover {
+    background-color: #45a049;
+  }
